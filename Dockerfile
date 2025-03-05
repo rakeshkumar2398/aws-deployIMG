@@ -1,3 +1,4 @@
 FROM nginx:latest
 EXPOSE 80
-COPY ./usr/shar/ngnix/html
+COPY ./usr/share/nginx/html /usr/share/nginx/html
+
